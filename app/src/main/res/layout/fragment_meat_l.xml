@@ -1,0 +1,54 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <androidx.cardview.widget.CardView
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        tools:context=".fragments.MeatLFragment">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/green_toolbar"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/meat_balls"
+                android:textColor="@color/white"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:padding="4dp"
+                android:layout_margin="4dp"
+                android:id="@+id/mlHeading"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@id/mlHeading">
+
+                <ImageView
+                    android:id="@+id/mlImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/mlimg"
+                    android:src="@drawable/meatloaf"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"/>
+
+
+
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

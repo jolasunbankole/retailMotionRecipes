@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="#4CAF50"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".fragments.DinnerFragment">
+
+
+        <TextView
+            android:id="@+id/titlelunch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="@string/title_name"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="38sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/instructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="@string/instructions"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textStyle="bold"/>
+
+
+
+        <Button
+            android:id="@+id/meatBallBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/meat_parmesan_onions"
+            android:layout_marginTop="120dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:shadowColor="@color/black"
+            tools:text="Ingredients 1"/>
+
+
+        <Button
+            android:id="@+id/meatLoafBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/meat_eggs_onions"
+            android:shadowColor="@color/black"
+            tools:text="Ingredients 2"/>
+
+        <Button
+            android:id="@+id/chickenTMBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:shadowColor="@color/black"
+            android:text="@string/chicken_butter_onions"
+            tools:text="Ingredients 3"/>
+
+
+
+    </LinearLayout>
+</layout>

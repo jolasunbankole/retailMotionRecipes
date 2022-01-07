@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/uiFragment">
+
+    <fragment
+        android:id="@+id/uiFragment"
+        android:name="com.example.retailmotionrecipes.fragments.UiFragment"
+        android:label="UiFragment"
+        tools:layout="@layout/fragment_ui">
+        <action
+            android:id="@+id/action_uiFragment_to_dinnerFragment"
+            app:destination="@id/dinnerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dinnerFragment"
+        android:name="com.example.retailmotionrecipes.fragments.DinnerFragment"
+        android:label="DinnerFragment"
+        tools:layout="@layout/fragment_dinner">
+        <action
+            android:id="@+id/action_dinnerFragment_to_meatBFragment"
+            app:destination="@id/meatBFragment" />
+        <action
+            android:id="@+id/action_dinnerFragment_to_meatLFragment"
+            app:destination="@id/meatLFragment" />
+        <action
+            android:id="@+id/action_dinnerFragment_to_chickenTFragment"
+            app:destination="@id/chickenTFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/meatBFragment"
+        android:name="com.example.retailmotionrecipes.fragments.MeatBFragment"
+        android:label="fragment_meat_b"
+        tools:layout="@layout/fragment_meat_b" />
+    <fragment
+        android:id="@+id/meatLFragment"
+        android:name="com.example.retailmotionrecipes.fragments.MeatLFragment"
+        android:label="fragment_meat_l"
+        tools:layout="@layout/fragment_meat_l" />
+    <fragment
+        android:id="@+id/chickenTFragment"
+        android:name="com.example.retailmotionrecipes.fragments.ChickenTFragment"
+        android:label="fragment_chicken_t"
+        tools:layout="@layout/fragment_chicken_t" />
+</navigation>

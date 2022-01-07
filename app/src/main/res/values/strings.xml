@@ -1,0 +1,21 @@
+<resources>
+    <string name="title_name">Dinner Recipes</string>
+    <string name="choose_your_ingredients">Choose your ingredients</string>
+    <string name="question">Are You </string>
+    <string name="instructions">Choose your ingredients</string>
+    <string name="dessert">Dessert</string>
+    <string name="answer_btn">Hungry ?</string>
+    <string name="dinner">Dinner</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="meat_parmesan_onions">Meat,Parmesan,Onions</string>
+    <string name="meat_eggs_onions">Meat,Eggs,Onions</string>
+    <string name="chicken_butter_onions">Chicken,Butter,Onions</string>
+    <string name="chicken">Chicken</string>
+    <string name="chicken_tikka_masala">Chicken Tikka Masala</string>
+    <string name="ctm">CTM</string>
+    <string name="meat_balls">meat balls</string>
+    <string name="meatbimg">meatbimg</string>
+    <string name="mlimg">mlImg</string>
+
+</resources>
